@@ -1,0 +1,9 @@
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\obj\Debug\SEO.csprojAssemblyReference.cache
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\obj\Debug\SEO.Form1.resources
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\obj\Debug\SEO.Properties.Resources.resources
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\obj\Debug\SEO.csproj.GenerateResource.cache
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\obj\Debug\SEO.csproj.CoreCompileInputs.cache
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\bin\Debug\SEO.exe
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\bin\Debug\SEO.pdb
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\obj\Debug\SEO.exe
+C:\Users\Hamit Avşar\source\repos\SEO\SEO\obj\Debug\SEO.pdb

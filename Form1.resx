@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
+  </metadata>
+  <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>293, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>79</value>
+  </metadata>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>    
+	            &lt;/div&gt;
+	          &lt;/div&gt;
+	         
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/section&gt;
+
+	
+
+   
+
+    &lt;section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);"&gt;
+    	&lt;div class="container"&gt;
+    		&lt;div class="row justify-content-center"&gt;
+    			&lt;div class="col-md-10"&gt;
+		    		&lt;div class="row"&gt;
+		          &lt;div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate"&gt;
+		            &lt;div class="block-18 text-center"&gt;
+		              &lt;div class="text"&gt;
+		                &lt;strong class="number" data-number="10000"&gt;0&lt;/strong&gt;
+		                &lt;span&gt;Mutlu Müşteri&lt;/span&gt;
+		              &lt;/div&gt;
+		            &lt;/div&gt;
+		          &lt;/div&gt;
+		          &lt;div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate"&gt;
+		            &lt;div class="block-18 text-center"&gt;
+		              &lt;div class="text"&gt;
+		                &lt;strong class="number" data-number="1000"&gt;0&lt;/strong&gt;
+		                &lt;span&gt;Farklı Ürün&lt;/span&gt;
+		              &lt;/div&gt;
+		            &lt;/div&gt;
+		          &lt;/div&gt;
+		          &lt;div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate"&gt;
+		            &lt;div class="block-18 text-center"&gt;
+		              &lt;div class="text"&gt;
+		                &lt;strong class="number" data-number="30"&gt;0&lt;/strong&gt;
+		                &lt;span&gt;Yıllık Deneyim&lt;/span&gt;
+		              &lt;/div&gt;
+		            &lt;/div&gt;
+		          &lt;/div&gt;
+		          &lt;div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate"&gt;
+		            &lt;div class="block-18 text-center"&gt;
+		              &lt;div class="text"&gt;
+		                &lt;strong class="number" data-number="4"&gt;0&lt;/strong&gt;
+		                &lt;span&gt;Farklı Mağaza&lt;/span&gt;
+		              &lt;/div&gt;
+		            &lt;/div&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+	        &lt;/div&gt;
+        &lt;/div&gt;
+    	&lt;/div&gt;
+    &lt;/section&gt;
+
+
+    
+
+
+  
+
+   
+
+    &lt;footer class="ftco-footer ftco-bg-dark ftco-section"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="row mb-5"&gt;
+          &lt;div class="col-md"&gt;
+            &lt;div class="ftco-footer-widget mb-4"&gt;
+              &lt;h2 class="ftco-heading-2"&gt;&lt;/h2&gt;
+              &lt;p&gt; &lt;img src="images/logo.jpg" width="300" height="150"&gt;&lt;/p&gt;
+              &lt;ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"&gt;
+                &lt;li class="ftco-animate"&gt;&lt;a href="#"&gt;&lt;span class="icon-twitter"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="ftco-animate"&gt;&lt;a href="#"&gt;&lt;span class="icon-facebook"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="ftco-animate"&gt;&lt;a href="#"&gt;&lt;span class="icon-instagram"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          
+          &lt;div class="col-md"&gt;
+            &lt;div class="ftco-footer-widget mb-4"&gt;
+            	&lt;h2 class="ftco-heading-2"&gt;Sorunuz mu var?&lt;/h2&gt;
+            	&lt;div class="block-23 mb-3"&gt;
+	              &lt;ul&gt;
+	                &lt;li&gt;&lt;span class="icon icon-map-marker"&gt;&lt;/span&gt;&lt;span class="text"&gt;KARACAKAYA CADDESİ,
+NO:42/B, SİTELER - ANKARA&lt;/span&gt;&lt;/li&gt;
+	                &lt;li&gt;&lt;a href="#"&gt;&lt;span class="icon icon-phone"&gt;&lt;/span&gt;&lt;span class="text"&gt; 0 (312) 349 10 47&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	                &lt;li&gt;&lt;a href="#"&gt;&lt;span class="icon icon-envelope"&gt;&lt;/span&gt;&lt;span class="text"&gt;  info@yamanlarofis.com&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	              &lt;/ul&gt;
+	            &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-md-12 text-center"&gt;
+
+            &lt;p&gt;&lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;
+  Copyright &amp;copy;&lt;script&gt;document.write(new Date().getFullYear());&lt;/script&gt; All rights reserved 
+  &lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+    
+  
+
+  &lt;!-- loader --&gt;
+  &lt;div id="ftco-loader" class="show fullscreen"&gt;&lt;svg class="circular" width="48px" height="48px"&gt;&lt;circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/&gt;&lt;circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+
+  &lt;script src="js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/jquery-migrate-3.0.1.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/popper.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/jquery.easing.1.3.js"&gt;&lt;/script&gt;
+  &lt;script src="js/jquery.waypoints.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/jquery.stellar.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/owl.carousel.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/aos.js"&gt;&lt;/script&gt;
+  &lt;script src="js/jquery.animateNumber.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/bootstrap-datepicker.js"&gt;&lt;/script&gt;
+  &lt;script src="js/jquery.timepicker.min.js"&gt;&lt;/script&gt;
+  &lt;script src="js/scrollax.min.js"&gt;&lt;/script&gt;
+  &lt;script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"&gt;&lt;/script&gt;
+  &lt;script src="js/google-map.js"&gt;&lt;/script&gt;
+  &lt;script src="js/main.js"&gt;&lt;/script&gt;
+    
+  &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="tr"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Deluxe - Free Bootstrap 4 Template by Colorlib&lt;/title&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+    
+    &lt;link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet"&gt;
+    &lt;link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet"&gt;
+
+    &lt;link rel="stylesheet" href="css/open-iconic-bootstrap.min.css"&gt;
+    &lt;link rel="stylesheet" href="css/animate.css"&gt;
+    
+    &lt;link rel="stylesheet" href="css/owl.carousel.min.css"&gt;
+    &lt;link rel="stylesheet" href="css/owl.theme.default.min.css"&gt;
+    &lt;link rel="stylesheet" href="css/magnific-popup.css"&gt;
+
+    &lt;link rel="stylesheet" href="css/aos.css"&gt;
+
+    &lt;link rel="stylesheet" href="css/ionicons.min.css"&gt;
+
+    &lt;link rel="stylesheet" href="css/bootstrap-datepicker.css"&gt;
+    &lt;link rel="stylesheet" href="css/jquery.timepicker.css"&gt;
+
+    
+    &lt;link rel="stylesheet" href="css/flaticon.css"&gt;
+    &lt;link rel="stylesheet" href="css/icomoon.css"&gt;
+    &lt;link rel="stylesheet" href="css/style.css"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar"&gt;
+	    &lt;div class="container"&gt;
+	      &lt;img src="images\logo.jpg" width="450" height="150" align="center"&gt;
+	      
+	    &lt;/div&gt;
+	  &lt;/nav&gt;
+    &lt;!-- END nav --&gt;
+
+    &lt;section class="home-slider owl-carousel"&gt;
+      &lt;div class="slider-item" style="background-image:url(images/bg_1.jpg);"&gt;
+      	&lt;div class="overlay"&gt;&lt;/div&gt;
+        &lt;div class="container"&gt;
+          &lt;div class="row no-gutters slider-text align-items-center justify-content-center"&gt;
+          &lt;div class="col-md-12 ftco-animate text-center"&gt;
+          	&lt;div class="text mb-5 pb-3"&gt;
+	            &lt;h1 class="mb-3"&gt;Türkiyenin en önde gelen ofis mobilyası mağazasına&lt;/h1&gt;
+	            &lt;h2&gt;Hoşgeldiniz!&lt;/h2&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="slider-item" style="background-image:url(images/bg_2.jpg);"&gt;
+      	&lt;div class="overlay"&gt;&lt;/div&gt;
+        &lt;div class="container"&gt;
+          &lt;div class="row no-gutters slider-text align-items-center justify-content-center"&gt;
+          &lt;div class="col-md-12 ftco-animate text-center"&gt;
+          	&lt;div class="text mb-5 pb-3"&gt;
+	            &lt;h1 class="mb-3"&gt;Aradığınız ofis mobilyası burada yoksa &lt;/h1&gt;
+	            &lt;h2&gt;Başka yerde aramayın..&lt;/h2&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+
+   
+
+
+    &lt;section class="ftco-section ftc-no-pb ftc-no-pt"&gt;
+			&lt;div class="container"&gt;
+				&lt;div class="row"&gt;
+					
+					&lt;div class="col-md-12 py-5 wrap-about pb-md-5 ftco-animate"&gt;
+	          &lt;div class="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5"&gt;
+	          	&lt;div class="ml-md-1" align="center"&gt;
+		          	
+		            
+</value>
+  </data>
+</root>
